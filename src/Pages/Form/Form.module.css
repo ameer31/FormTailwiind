@@ -1,0 +1,265 @@
+@font-face {
+  font-family: mon-semi-bold;
+  src: url(../../assets/Fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: lato-reg;
+  src: url(../../assets//Fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url(../../assets/Fonts/Lato-Bold.ttf);
+}
+
+.main {
+  background-color: #F9FAFB;
+}
+
+.backbtn button {
+  display: flex;
+  font-weight: 600;
+  line-height: 16px;
+  font-family: 14px;
+  gap:5px;
+}
+.backbtn1 button {
+  display: flex;
+  font-weight: 600;
+  line-height: 16px;
+  font-family: 14px;
+  gap:5px;
+  margin-top:10px;
+}
+.main {
+  position: relative;
+}
+.backbtn button {
+  position: absolute;
+  left: 0;
+  margin-top:10px;
+
+}
+
+.backbtn1 button {
+  position: absolute;
+  right: 0;
+}
+.step2 h4 {
+  font-family: mon-semi-bold;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+
+.step2 h2 {
+  font-family: mon-semi-bold;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-family: lato-reg;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6B7280;
+}
+
+.onee input {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 100px;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  padding-right: 100%;
+  margin-bottom: 20px;
+}
+
+.onee label {
+  font-family: lato-bold;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: -200px;
+  margin-bottom: 10px;
+}
+
+.one {
+  display: flex;
+  gap: 15px;
+}
+
+.one input {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  padding: 15px 46px;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.one label {
+  font-family: lato-bold;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 600;
+}
+
+.customlabel {
+  margin-left: -200px;
+  margin-bottom: 5px;
+}
+
+.customlabel1 {
+  margin-left: -150px;
+  margin-bottom: 5px;
+
+}
+
+.one1 textarea {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  /* padding: 15px 106px; */
+  width: 480px;
+  height: 112px;
+  margin-bottom: 40px;
+}
+
+.customlabel2 {
+  margin-left: -62%;
+  margin-bottom: 5px;
+
+}
+
+.one1 label {
+  font-family: lato-bold;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 600;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 480px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  outline: none;
+  font-family: lato-reg;
+}
+
+
+.price {
+  margin-bottom: 20px;
+}
+
+
+
+.step1 h4 {
+  font-size: mon-semi-bold !important;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.step1 h2 {
+  font-family: mon-semi-bold;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+
+}
+
+.step1 p {
+  font-family: lato-reg;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B7280;
+  margin-bottom: 20px;
+
+}
+
+.step3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.square {
+  width: 104px;
+  height: 104px;
+  background: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.step3 h2 {
+  font-family: mon-semi-bold;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  margin-bottom: 12px;
+}
+
+.step3 p {
+  font-family: lato-reg;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6B7280;
+  margin-bottom: 18px;
+}
+
+.btn button {
+  padding: 15px 35px;
+  background-color: green;
+  color: #fff;
+  font-family: lato-reg;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.iconsss p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  margin-top: 30px;
+}
+
+.iconsss span {
+  font-family: lato-reg;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6B7280;
+  margin-left: 10px;
+}
